@@ -70,10 +70,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
-$active_group = 'default';
-$query_builder = TRUE;
 
-$db['default'] = array(
+switch ( $_SERVER['HTTP_HOST'])
+{
+    case 'localhost':
+        error_reporting(E_ALL);
+        $active_group = 'local';
+	break;
+ 
+    case 'tisystems.esy.es':
+	error_reporting(0);
+        $active_group = 'default';
+	break;
+ 
+	default:
+	exit('O ambiente da aplica&ccedil;&atilde;o n&atilde;o est&aacute; definido corretamente.');
+}
+
+
+$query_builder = TRUE;
+$db['local'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'root',
@@ -93,4 +109,27 @@ $db['default'] = array(
 	'stricton' => FALSE,
 	'failover' => array(),
 	'save_queries' => TRUE
+);
+
+
+$db['default'] = array(
+	'dsn'	=> '',
+	'hostname' => 'mysql.hostinger.com.br',
+	'username' => 'u962708246_v',
+	'password' => 'ccb2016',
+	'database' => 'u962708246_v',
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => FALSE
 );
