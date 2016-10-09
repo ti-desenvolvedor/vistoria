@@ -4,34 +4,34 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title><?php echo$titulo; ?></title>
+        <title>Vistória</title>
 		<!-- ICON -->
         <link rel="shortcut icon" type="image/gif"  href="<?php echo base_url('assets/imagens/icon-sold.gif');?>">
 		<!-- ICON -->
 
 		<!-- CSS -->
 		
-		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/estilo.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/jquery.dataTables.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/jquery-ui-1.8.10.custom.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/TableTools.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8" />
+    <link href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/datatables/css/dataTables.bootstrap.min.css')?>" rel="stylesheet">
+    <link href="<?php echo base_url('assets/bootstrap-datepicker/css/bootstrap-datepicker3.min.css')?>" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 		<!-- CSS -->
 	
 		<!-- JavaScript -->
-		<script type="text/javascript" src="<?php echo base_url() . 'assets/plugins/jquery/jquery-1.11.3.min.js' ?>"></script>
-		<script type="text/javascript" src="<?php echo base_url() . 'assets/js/bootstrap.min.js' ?>"></script>
-		<script type="text/javascript" src="<?php echo base_url() . 'assets/js/jquery.dataTables.min.js' ?>"></script>
- 		<script type="text/javascript" src="<?php echo base_url() . 'assets/js/jquery-ui-1.10.1.custom.min.js' ?>"></script>
-<!--		<script type="text/javascript" src="<?php echo base_url() . 'assets/js/jquery.mask.min.js' ?>"></script> -->
-		<script type="text/javascript" src="<?php echo base_url() . 'assets/js/scripts.js' ?>"></script>
-		<!--<script type="text/javascript" src="<?php echo base_url() . 'assets/js/jquery.flot.js' ?>"></script> -->
-		<script type="text/javascript" src="<?php echo base_url() . 'assets/js/jquery.flot.time.js' ?>"></script>
-		<script type="text/javascript" src="<?php echo base_url() . 'assets/js/TableTools.min.js' ?>"></script>
+			<script src="<?php echo base_url('assets/jquery/jquery-2.1.4.min.js')?>"></script>
+			<script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js')?>"></script>
+			<script src="<?php echo base_url('assets/datatables/js/jquery.dataTables.min.js')?>"></script>
+			<script src="<?php echo base_url('assets/datatables/js/dataTables.bootstrap.min.js')?>"></script>
+			<script src="<?php echo base_url('assets/bootstrap-datepicker/js/bootstrap-datepicker.min.js')?>"></script>
 
        <!-- JavaScript -->
 
-		<link href="<?php echo base_url('assets/plugins/font-awesome-4.3.0/css/font-awesome.min.css'); ?>" rel="stylesheet" media="screen">
+		<link href="<?php echo base_url('assets/font-awesome-4.3.0/css/font-awesome.min.css'); ?>" rel="stylesheet" media="screen">
         <!--api grafico google js-->
         <script type="text/javascript" src="https://www.google.com/jsapi"></script>
         <!--\api grafico google js--> 

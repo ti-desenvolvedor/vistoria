@@ -2,12 +2,69 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Person_model extends CI_Model {
-
-	var $table = 'usuario';
-	 
+		 var $table = 'usuario';
 	var $column_order = array(null,'id', 'nome', 'sobrenome', 'email', 'usuario', 'senha', 'sexo', 'endereco', 'aniversario', 'foto', 'status',null); //set column field database for datatable orderable
 	var $column_search = array('nome', 'sobrenome','endereco'); //set column field database for datatable searchable just firstname , lastname , address are searchable
 	var $order = array('id' => 'desc'); // default order 
+	
+		public function login($data) {
+
+	//$this = $this->load->database('desenvolvimento', TRUE);
+		$condition = "usuario = '".$data['usuario']."' AND senha = '" .$data['senha']."'";
+		$this->db->select();
+		$this->db->from('usuario');
+		$this->db->where($condition);
+		$this->db->limit(1);
+		$query = $this->db->get();
+		if ($query->num_rows() == 1) {
+			return true;
+		} else {
+			return false;
+
+		}
+	}
+		public function get_dadosUser($data) {
+
+	//$this = $this->load->database('desenvolvimento', TRUE);
+		$condition = "login = '".$data['login']."' AND senha = '" .$data['senha']."'";
+		$this->db->select();
+		$this->db->from('operadores');
+		$this->db->where($condition);
+		$this->db->limit(1);
+		$idoper = $this->db->get();
+                $resultado = $idoper->result();
+
+
+		if ($idoper->num_rows() == 1) {
+                foreach ($resultado as $key => $value) {
+                      $login =  $value->login;
+                }
+                    $dados = array();
+                    
+                $condition2 = "login = '".$login."'"  ;
+                $this->db->select();
+		$this->db->from('operador');
+		$this->db->where($condition2);
+		$this->db->limit(1);
+		$result = $this->db->get()->result();
+                
+                    foreach ($result as $key => $value) {
+                       $dados['idOperador'] = $value->idOperador;;
+                       $dados['nome'] = $value->nome;
+                        $dados['login'] = $value->login;
+                       $dados['sobrenome'] = $value->sobrenome;
+                       $dados['departamento'] = $value->departamento;
+                       $dados['emailSold'] = $value->emailSold;
+                       $dados['ramal'] = $value->ramal;
+                   }
+                    return $dados;
+		} else {
+			return false;
+		}
+	}
+
+	
+
 
 	public function __construct()
 	{

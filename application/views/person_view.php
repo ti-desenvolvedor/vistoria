@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ajax CRUD with Bootstrap modals and Datatables with Bulk Delete</title>
+    <title>Vistória</title>
     <link href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/datatables/css/dataTables.bootstrap.min.css')?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/bootstrap-datepicker/css/bootstrap-datepicker3.min.css')?>" rel="stylesheet">
@@ -17,11 +17,11 @@
     </head> 
 <body>
     <div class="container">
-        <h1 style="font-size:20pt">Ajax CRUD with Bootstrap modals and Datatables with  Bulk Delete</h1>
+        <h1 style="font-size:20pt">Lista de Usuarios</h1>
 
-        <h3>Person Data</h3>
+        <h3>Administração</h3>
         <br />
-        <button class="btn btn-success" onclick="add_person()"><i class="glyphicon glyphicon-plus"></i> Add Person</button>
+        <button class="btn btn-success" onclick="add_usuario()"><i class="glyphicon glyphicon-plus"></i> Add usuario</button>
         <button class="btn btn-default" onclick="reload_table()"><i class="glyphicon glyphicon-refresh"></i> Reload</button>
         <button class="btn btn-danger" onclick="bulk_delete()"><i class="glyphicon glyphicon-trash"></i> Bulk Delete</button>
         <br />
@@ -32,8 +32,10 @@
                     <th><input type="checkbox" id="check-all"></th>
                     <th>First Name</th>
                     <th>Last Name</th>
+                    <th>Email</th>
                     <th>Sexo</th>
                     <th>Usuário</th>
+                     <th>Senha</th>
                     <th>Address</th>
                     <th>Date of Birth</th>
                     <th style="width:150px;">Action</th>
@@ -47,8 +49,10 @@
                 <th></th>
                 <th>First Name</th>
                 <th>Last Name</th>
+                <th>Email</th>
                 <th>Sexo</th>
                 <th>Usuário</th>
+                 <th>Senhao</th>
                 <th>Address</th>
                 <th>Date of Birth</th>
                 <th>Action</th>
@@ -81,7 +85,7 @@ $(document).ready(function() {
 
         // Load data for the table's content from an Ajax source
         "ajax": {
-            "url": "<?php echo site_url('person/ajax_list')?>",
+            "url": "<?php echo site_url('usuario/ajax_list')?>",
             "type": "POST"
         },
 
@@ -134,18 +138,18 @@ $(document).ready(function() {
 
 
 
-function add_person()
+function add_usuario()
 {
     save_method = 'add';
     $('#form')[0].reset(); // reset form on modals
     $('.form-group').removeClass('has-error'); // clear error class
     $('.help-block').empty(); // clear error string
     $('#modal_form').modal('show'); // show bootstrap modal
-    $('.modal-title').text('Add Person'); // Set Title to Bootstrap modal title
+    $('.modal-title').text('Add usuario'); // Set Title to Bootstrap modal title
 
 }
 
-function edit_person(id)
+function edit_usuario(id)
 {
     save_method = 'update';
     $('#form')[0].reset(); // reset form on modals
@@ -155,7 +159,7 @@ function edit_person(id)
 
     //Ajax Load data from ajax
     $.ajax({
-        url : "<?php echo site_url('person/ajax_edit')?>/" + id,
+        url : "<?php echo site_url('usuario/ajax_edit')?>/" + id,
         type: "GET",
         dataType: "JSON",
         success: function(data)
@@ -166,10 +170,12 @@ function edit_person(id)
             $('[name="sobrenome"]').val(data.sobrenome);
             $('[name="sexo"]').val(data.sexo);
             $('[name="usuario"]').val(data.usuario);
+            $('[name="senha"]').val(data.senha);
+            $('[name="email"]').val(data.email);
             $('[name="endereco"]').val(data.endereco);
             $('[name="aniversario"]').datepicker('update',data.aniversario);
             $('#modal_form').modal('show'); // show bootstrap modal when complete loaded
-            $('.modal-title').text('Edit Person'); // Set title to Bootstrap modal title
+            $('.modal-title').text('Edit usuario'); // Set title to Bootstrap modal title
 
 
         },
@@ -192,9 +198,9 @@ function save()
     var url;
 
     if(save_method == 'add') {
-        url = "<?php echo site_url('person/ajax_add')?>";
+        url = "<?php echo site_url('usuario/ajax_add')?>";
     } else {
-        url = "<?php echo site_url('person/ajax_update')?>";
+        url = "<?php echo site_url('usuario/ajax_update')?>";
     }
 
     // ajax adding data to database
@@ -237,13 +243,13 @@ function save()
     });
 }
 
-function delete_person(id)
+function delete_usuario(id)
 {
     if(confirm('Are you sure delete this data?'))
     {
         // ajax delete data to database
         $.ajax({
-            url : "<?php echo site_url('person/ajax_delete')?>/"+id,
+            url : "<?php echo site_url('usuario/ajax_delete')?>/"+id,
             type: "POST",
             dataType: "JSON",
             success: function(data)
@@ -274,7 +280,7 @@ function bulk_delete()
             $.ajax({
                 type: "POST",
                 data: {id:list_id},
-                url: "<?php echo site_url('person/ajax_bulk_delete')?>",
+                url: "<?php echo site_url('usuario/ajax_bulk_delete')?>",
                 dataType: "JSON",
                 success: function(data)
                 {
@@ -309,7 +315,7 @@ function bulk_delete()
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h3 class="modal-title">Usuario Form</h3>
+                <h3 class="modal-title">usuario Form</h3>
             </div>
             <div class="modal-body form">
                 <form action="#" id="form" class="form-horizontal">
@@ -326,6 +332,27 @@ function bulk_delete()
                             <label class="control-label col-md-3">Sobrenome</label>
                             <div class="col-md-9">
                                 <input name="sobrenome" placeholder="Sobrenome" class="form-control" type="text">
+                                <span class="help-block"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Usuário</label>
+                            <div class="col-md-9">
+                                <input name="usuario" placeholder="usuario" class="form-control" type="text">
+                                <span class="help-block"></span>
+                            </div>
+                        </div>
+                       <div class="form-group">
+                            <label class="control-label col-md-3">Senha</label>
+                            <div class="col-md-9">
+                                <input name="senha" placeholder="Senha" class="form-control" type="password">
+                                <span class="help-block"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Email</label>
+                            <div class="col-md-9">
+                                <input name="email" placeholder="Email" class="form-control" type="text">
                                 <span class="help-block"></span>
                             </div>
                         </div>
@@ -347,13 +374,7 @@ function bulk_delete()
                                 <span class="help-block"></span>
                             </div>
                         </div>
-                          <div class="form-group">
-                            <label class="control-label col-md-3">Usuário</label>
-                            <div class="col-md-9">
-                                <input name="usuario" placeholder="Usuario" class="form-control" type="text">
-                                <span class="help-block"></span>
-                            </div>
-                        </div>
+       
                         <div class="form-group">
                             <label class="control-label col-md-3">Data de Aniversário</label>
                             <div class="col-md-9">

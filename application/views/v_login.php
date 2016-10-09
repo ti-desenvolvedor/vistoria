@@ -1,15 +1,15 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" type="image/gif" href="<?php echo base_url('assets/imagens/icon-sold.gif');?>">
-     <link rel="shortcut icon" type="image/gif"  href="<?php echo base_url('assets/imagens/icon-sold.gif'); ?>">
-    <script type="text/javascript" src="<?php echo base_url('assets/plugins/jquery/jquery-2.1.4.min.js'); ?>"></script>	
+    <link rel="icon" type="image/gif" href="<?php echo base_url().'assets/imagens/icon-sold.gif';?>">
+     <link rel="shortcut icon" type="image/gif"  href="<?php echo base_url().'assets/imagens/icon-sold.gif'; ?>">
+    <script type="text/javascript" src="<?php echo base_url().'assets/plugins/jquery/jquery-2.1.4.min.js'; ?>"></script>	
 
     <title>Login</title>
     <style>
@@ -50,9 +50,9 @@
 
 	<!-- Latest compiled and minified CSS -->
 	
-	 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/plugins/bootstrap/css/bootstrap.min.css'); ?>"/> 	
-	  <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/plugins/font-awesome-4.3.0/css/font-awesome.min.css'); ?>"/>
-    <script type="text/javascript" src="<?php echo base_url('assets/plugins/bootstrap/js/bootstrap.min.js'); ?>"></script>
+	 <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/bootstrap/css/bootstrap.min.css'; ?>"/> 	
+	  <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/font-awesome-4.3.0/css/font-awesome.min.css'; ?>"/>
+    <script type="text/javascript" src="<?php echo base_url().'assets/bootstrap/js/bootstrap.min.js'; ?>"></script>
 	
     <!-- Custom styles for this template -->
     <link href="<?= base_url('assets/css/signin.css') ?>" rel="stylesheet">
@@ -72,10 +72,9 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#"><img alt="Sold Leilões Online" src="<?php echo base_url('assets/imagens/Trading_phone_call_about_money_24.png');?>" /></a>
-			<a class="navbar-brand" href="#">Telefonia </a>
+			<a class="navbar-brand" href="#"><img alt="Congregação Cristã no Brasil" src="<?php echo base_url().'assets/imagens/Trading_phone_call_about_money_24.png';?>" /></a>
+			<a class="navbar-brand" href="#">Vistória</a>
 		</div>
-
 	</div>
 </div>
 <br/><br/><br/>
@@ -88,11 +87,11 @@
 				echo "</div>";
 			}
 		?>
-      <form class="login panel panel-default " role="form" method="post" action="<?= base_url('login/logar') ?>">
+      <form class="login panel panel-default " role="form" method="post" action="<?= base_url().'login/logar' ?>">
 	      <div class=" panel-heading"> Login</div>
 	      <div class="panel-body">
 	         <h2 class="form-signin-heading">
-	           <img class="profile-img-card" src="<?php echo base_url('assets/imagens/avatar_2x.png'); ?>" width="150" height="58">
+	           <img class="profile-img-card" src="<?php echo base_url().'assets/imagens/avatar_2x.png'; ?>" width="150" height="58">
 	       </h2><hr>
 	       		<div id="div-login-msg">
 	       		     <i class="glyphicon glyphicon-chevron-right"></i>
@@ -132,12 +131,13 @@
     	</form>
 	</div> <!-- /container -->
 <!-- Navbar fixed bottom -->
-<div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
   <div class="container">
     <div class="navbar-collapse collapse">
      <footer class="text-center col-md-12 small">
 			<br/>
-			Copyright © 2015 - <?=date('Y');?> | sold.com.br  Todos os direitos reservados.
+			 <h5 class="text-muted "><b>Copyright © 2016 - <?php echo date('Y'); ?> | Congregação Cristã no Brasil - <a href="http://www.congregacao.org.br">www.congregacao.org.br</a> - Todos os direitos reservados.</b></h5>
+                    <h6 class="text-warning">Desenvolvido por Thomas Gonçalves</h6>
 			<br/>
 		</footer>
 

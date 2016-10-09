@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\wamp\www\vistoria\vistoria.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/vistoria/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/vistoria/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\wamp\www\vistoria\application\views\v_login.php"/>
+		<file name="C:\wamp\www\vistoria\application\config\config.php"/>
+		<file name="C:\wamp\www\vistoria\application\config\autoload.php"/>
+		<file name="C:\wamp\www\vistoria\application\models\Usuario_model.php"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\Usuario.php"/>
+		<file name="C:\wamp\www\vistoria\application\core\My_controller.php"/>
+		<file name="C:\wamp\www\vistoria\application\views\usuario_view.php"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\login.php"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\header.php"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\menu.php"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\Codelobster0.php"/>
+	</lastopfiles>
+	<todoblock>
+		<todofile name="C:\wamp\www\vistoria\system\core\Loader.php">
+			<todo name="todo Figure out a way to move this to the constructor" pos="5;148"/>
+		</todofile>
+		<todofile name="C:\wamp\www\vistoria\system\core\Output.php">
+			<todo name="todo We need to figure out how to permit headers to be cached." pos="5;200"/>
+		</todofile>
+		<todofile name="C:\wamp\www\vistoria\system\database\DB_forge.php">
+			<todo name="todo Remove deprecated $_after option in 3.1+" pos="5;557"/>
+		</todofile>
+		<todofile name="C:\wamp\www\vistoria\system\database\DB_query_builder.php">
+			<todo name="@todo error" pos="4;1986"/>
+		</todofile>
+		<todofile name="C:\wamp\www\vistoria\system\database\drivers\sqlite3\sqlite3_driver.php">
+			<todo name="todo Implement use of SQLite3::querySingle(), if needed" pos="5;120"/>
+		</todofile>
+		<todofile name="C:\wamp\www\vistoria\system\database\drivers\sqlite3\sqlite3_forge.php">
+			<todo name="todo implement drop_column(), modify_column()" pos="5;135"/>
+		</todofile>
+		<todofile name="C:\wamp\www\vistoria\system\database\drivers\sqlite\sqlite_forge.php">
+			<todo name="todo implement drop_column(), modify_column()" pos="5;115"/>
+		</todofile>
+		<todofile name="C:\wamp\www\vistoria\system\helpers\date_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;134"/>
+		</todofile>
+		<todofile name="C:\wamp\www\vistoria\system\helpers\file_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;58"/>
+		</todofile>
+		<todofile name="C:\wamp\www\vistoria\system\helpers\security_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;89"/>
+		</todofile>
+		<todofile name="C:\wamp\www\vistoria\system\helpers\string_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;64"/>
+			<todo name="todo: remove in 3.1+" pos="19;231"/>
+			<todo name="todo: remove in 3.1+" pos="20;234"/>
+			<todo name="todo Remove in version 3.1+." pos="5;294"/>
+		</todofile>
+		<todofile name="C:\wamp\www\vistoria\system\helpers\url_helper.php">
+			<todo name="todo Remove old 'dash' and 'underscore' usage in 3.1+." pos="5;472"/>
+		</todofile>
+		<todofile name="C:\wamp\www\vistoria\system\libraries\Xmlrpc.php">
+			<todo name="@todo - this needs to be made more general purpose" pos="6;1574"/>
+		</todofile>
+	</todoblock>
+	<dbgurls>
+	</dbgurls>
+	<filescache>
+		<file name="C:\wamp\www\vistoria\system\libraries\Session\drivers\Session_redis_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Session\drivers\Session_memcached_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Session\drivers\Session_files_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Session\drivers\Session_database_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Session\drivers\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Session\SessionHandlerInterface.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Session\Session_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Session\Session.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Session\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Javascript\Jquery.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Javascript\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Cache\drivers\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Cache\drivers\Cache_wincache.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Cache\drivers\Cache_redis.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Cache\drivers\Cache_memcached.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Cache\drivers\Cache_file.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Cache\drivers\Cache_dummy.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Cache\drivers\Cache_apc.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Cache\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Cache\Cache.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Zip.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Xmlrpcs.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Xmlrpc.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\User_agent.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Upload.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Unit_test.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Typography.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Trackback.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Table.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Profiler.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Parser.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Pagination.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Migration.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Javascript.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Image_lib.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Ftp.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Form_validation.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Encryption.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Encrypt.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Email.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Cart.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\libraries\Calendar.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\upload_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\unit_test_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\profiler_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\pagination_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\number_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\migration_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\imglib_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\ftp_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\form_validation_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\email_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\db_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\date_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\english\calendar_lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\language\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\xml_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\url_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\typography_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\text_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\string_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\smiley_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\security_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\path_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\number_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\language_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\inflector_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\html_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\form_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\file_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\email_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\download_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\directory_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\date_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\cookie_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\captcha_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\helpers\array_helper.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\fonts\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlsrv\sqlsrv_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlsrv\sqlsrv_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlsrv\sqlsrv_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlsrv\sqlsrv_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlsrv\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlite3\sqlite3_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlite3\sqlite3_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlite3\sqlite3_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlite3\sqlite3_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlite3\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlite\sqlite_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlite\sqlite_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlite\sqlite_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlite\sqlite_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\sqlite\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\postgre\postgre_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\postgre\postgre_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\postgre\postgre_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\postgre\postgre_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\postgre\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_sqlite_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_sqlite_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_pgsql_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_pgsql_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_odbc_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_odbc_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_oci_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_oci_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_mysql_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_mysql_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_informix_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_informix_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_ibm_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_ibm_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_firebird_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_firebird_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_dblib_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_dblib_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_cubrid_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_cubrid_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_4d_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\pdo_4d_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\subdrivers\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\pdo_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\pdo_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\pdo_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\pdo_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\pdo\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\odbc\odbc_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\odbc\odbc_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\odbc\odbc_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\odbc\odbc_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\odbc\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\oci8\oci8_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\oci8\oci8_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\oci8\oci8_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\oci8\oci8_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\oci8\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mysqli\mysqli_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mysqli\mysqli_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mysqli\mysqli_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mysqli\mysqli_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mysqli\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mysql\mysql_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mysql\mysql_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mysql\mysql_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mysql\mysql_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mysql\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mssql\mssql_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mssql\mssql_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mssql\mssql_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mssql\mssql_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\mssql\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\ibase\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\ibase\ibase_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\ibase\ibase_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\ibase\ibase_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\ibase\ibase_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\cubrid\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\cubrid\cubrid_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\cubrid\cubrid_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\cubrid\cubrid_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\cubrid\cubrid_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\drivers\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\DB_utility.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\DB_result.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\DB_query_builder.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\DB_forge.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\DB_driver.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\DB_cache.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\database\DB.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\compat\standard.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\compat\password.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\compat\mbstring.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\compat\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\compat\hash.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Utf8.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\URI.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Security.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Router.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Output.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Model.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Log.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Loader.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Lang.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Input.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Hooks.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Exceptions.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Controller.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Config.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Common.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\CodeIgniter.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\core\Benchmark.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\system\.htaccess" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\nbproject\private\private.xml" crc="1475959617"/>
+		<file name="C:\wamp\www\vistoria\nbproject\project.xml" crc="1475850562"/>
+		<file name="C:\wamp\www\vistoria\assets\jquery\jquery-2.1.4.min.js" crc="1435261572"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\font-awesome.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_variables.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_stacked.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_rotated-flipped.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_path.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_mixins.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_list.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_larger.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_icons.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_fixed-width.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_core.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_bordered-pulled.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_animated.scss" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\variables.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\stacked.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\rotated-flipped.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\path.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\mixins.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\list.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\larger.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\icons.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\font-awesome.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\fixed-width.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\core.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\bordered-pulled.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\animated.less" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\css\font-awesome.min.css" crc="1435158148"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\css\font-awesome.css" crc="1435158148"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\HELP-US-OUT.txt" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\datatables\js\jquery.dataTables.min.js" crc="1463764258"/>
+		<file name="C:\wamp\www\vistoria\assets\datatables\js\dataTables.bootstrap.min.js" crc="1463764258"/>
+		<file name="C:\wamp\www\vistoria\assets\datatables\css\jquery.dataTables.min.css" crc="1463764258"/>
+		<file name="C:\wamp\www\vistoria\assets\datatables\css\dataTables.bootstrap.min.css" crc="1463764258"/>
+		<file name="C:\wamp\www\vistoria\assets\bootstrap-datepicker\js\bootstrap-datepicker.min.js" crc="1462573624"/>
+		<file name="C:\wamp\www\vistoria\assets\bootstrap-datepicker\css\bootstrap-datepicker3.min.css" crc="1462573624"/>
+		<file name="C:\wamp\www\vistoria\assets\bootstrap\js\npm.js" crc="1469472810"/>
+		<file name="C:\wamp\www\vistoria\assets\bootstrap\js\bootstrap.min.js" crc="1469472810"/>
+		<file name="C:\wamp\www\vistoria\assets\bootstrap\css\bootstrap.min.css" crc="1469472808"/>
+		<file name="C:\wamp\www\vistoria\assets\bootstrap\css\bootstrap-theme.min.css" crc="1469472808"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\menu.php" crc="1475968262"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\header.php" crc="1475850562"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\foot.php" crc="1475960264"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\html\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_php.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_general.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_exception.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_db.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_404.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\cli\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_php.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_general.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_exception.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_db.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_404.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\v_login.php" crc="1475961997"/>
+		<file name="C:\wamp\www\vistoria\application\views\person_view.php" crc="1475966110"/>
+		<file name="C:\wamp\www\vistoria\application\views\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\third_party\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\models\Person_model.php" crc="1475964607"/>
+		<file name="C:\wamp\www\vistoria\application\models\index.html" crc="1444299834"/>
+		<file name="C:\wamp\www\vistoria\application\logs\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\libraries\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\upload_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\unit_test_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\profiler_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\pagination_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\number_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\migration_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\index.html" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\imglib_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\ftp_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\form_validation_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\email_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\db_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\date_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-brazilian\calendar_lang.php" crc="1427735436"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\upload_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\unit_test_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\profiler_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\pagination_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\number_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\migration_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\index.html" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\imglib_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\ftp_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\form_validation_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\email_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\db_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\date_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\portuguese-br\calendar_lang.php" crc="1422998934"/>
+		<file name="C:\wamp\www\vistoria\application\language\english\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\language\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\hooks\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\helpers\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\core\My_controller.php" crc="1458672534"/>
+		<file name="C:\wamp\www\vistoria\application\core\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\Usuario.php" crc="1475968704"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\Person.php" crc="1475963684"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\login.php" crc="1475964790"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\index.html" crc="1444299834"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\Codelobster0.php" crc="1475968430"/>
+		<file name="C:\wamp\www\vistoria\application\config\user_agents.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\config\smileys.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\config\routes.php" crc="1475962086"/>
+		<file name="C:\wamp\www\vistoria\application\config\profiler.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\config\mimes.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\config\migration.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\config\memcached.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\config\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\config\hooks.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\config\foreign_chars.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\config\doctypes.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\config\database.php" crc="1473204011"/>
+		<file name="C:\wamp\www\vistoria\application\config\constants.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\config\config.php" crc="1475962031"/>
+		<file name="C:\wamp\www\vistoria\application\config\autoload.php" crc="1475962207"/>
+		<file name="C:\wamp\www\vistoria\application\cache\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\cache\.htaccess" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\.htaccess" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\license.txt" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\index.php" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\.htaccess" crc="1436809400"/>
+	</filescache>
+</project>

@@ -29,9 +29,9 @@ class Person extends CI_Controller {
 			$row[] = $person->nome;
 			$row[] = $person->sobrenome;
 			$row[] = $person->email;
-                        $row[] = $person->sexo;
+            $row[] = $person->sexo;
 			$row[] = $person->usuario;
-                        $row[] = $person->senha;
+            $row[] = $person->senha;
 			$row[] = $person->endereco;
 			$row[] = $person->aniversario;
 
@@ -159,7 +159,7 @@ class Person extends CI_Controller {
 		}
 		 $this->load->library('form_validation');
 
-                $this->form_validation->set_rules('usuario', 'Usuario', 'trim|required|min_length[5]|max_length[12]');
+                $this->form_validation->set_rules('usuario', 'Usuario', 'trim|required|min_length[5]|max_length[46]');
                 $this->form_validation->set_rules('nome', 'Nome','required');
                 $this->form_validation->set_rules('endereco', 'Endereço', 'required');
                 $this->form_validation->set_rules('aniversario', 'Aniversário', '');
@@ -167,10 +167,10 @@ class Person extends CI_Controller {
                 if ($this->form_validation->run() == FALSE)
                 {
                     $data['inputerror'][] = 'usuario';
-                      $data['error_string'][] = form_error('usuario');
-                      $data['status'] = FALSE;
-                       	echo json_encode($data);
-						exit();
+                    $data['error_string'][] = form_error('usuario');
+                    $data['status'] = FALSE;
+                    echo json_encode($data);
+					exit();
                 }
 
 		if($data['status'] === FALSE)

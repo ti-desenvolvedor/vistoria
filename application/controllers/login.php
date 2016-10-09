@@ -12,10 +12,13 @@ class Login extends CI_Controller {
 		//$this->load->library('session');
 
 		// Load database
-		$this->load->model('Usuario');
+		$this->load->model('usuario_model','usuario');
+		$this->load->library('encrypt');
 	}
 
 Public function index(){
+              
+               
 		$this->load->view('v_login');
 }
 
@@ -37,11 +40,13 @@ Public function index(){
 		}else{
 
 			$data = array(
-				'login' => $this->input->post('usuario'),
-				'senha' => md5($this->input->post('senha'))
+				'usuario' => $this->input->post('usuario'),
+				'senha' =>md5($this->input->post('senha'))
 			);
-			$logado = $this->Usuario->login($data);
-                        $dadosusuario = $this->Usuario->get_dadosUser($data);
+			
+			$logado = $this->usuario->login($data);
+print_r($data);
+                        $dadosusuario = $this->usuario->get_dadosUser($data);
 			if ($logado) {
 				$this->session->set_userdata("logado", 1);
                                 $this->session->set_userdata("dadosusuario",  $dadosusuario);
