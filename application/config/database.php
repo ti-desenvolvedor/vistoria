@@ -84,7 +84,8 @@ switch ( $_SERVER['HTTP_HOST'])
 	break;
  
 	default:
-	exit('O ambiente da aplica&ccedil;&atilde;o n&atilde;o est&aacute; definido corretamente.');
+		error_reporting(0);
+        $active_group = 'default';
 }
 
 
