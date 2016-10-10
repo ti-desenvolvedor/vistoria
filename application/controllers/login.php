@@ -13,14 +13,12 @@ class Login extends CI_Controller {
 
 		// Load database
 		$this->load->model('usuario_model','usuario');
-		$this->load->library('encrypt');
 	}
 
-Public function index(){
-              
-               
-		$this->load->view('v_login');
-}
+	Public function index(){
+
+			$this->load->view('v_login');
+	}
 
 	public function logar(){
 		$this->load->library('form_validation');

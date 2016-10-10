@@ -3342,70 +3342,114 @@
 <treenode node="index;PHP:Function Name;C:\wamp\www\tarifador\application\controllers\Iniciar.php;f11;13;5;99;;;;vpos;;v;;r;;d28,13;;b1,0;;m">
 </treenode>
 </treenode>
-<treenode node="Login;PHP:Class Name;C:\wamp\www\vistoria\application\controllers\login.php;f0;2;1;63;;;;vpos;;vCI_Controller;;c;;r;;d34,2;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\login.php;f8;4;2;15;;;;vpos;;v;;r;;d31,4;;b1,0;;m">
+<treenode node="Login;PHP:Class Name;C:\wamp\www\vistoria\application\controllers\login.php;f0;2;1;64;;C:\wamp\www\vistoria\application\controllers\Login.php;f0;2;1;64;;;;vpos;;vCI_Controller;;c;;r;;d34,2;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\login.php;f8;4;2;15;;C:\wamp\www\vistoria\application\controllers\Login.php;f8;4;2;15;;C:\wamp\www\vistoria\application\controllers\Login.php;f8;4;2;15;;;;vpos;;v;;r;;d31,4;;b1,0;;m">
 </treenode>
-<treenode node="index;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\login.php;f7;17;1;21;;;;vpos;;v;;r;;d23,17;;b0,0;;m">
+<treenode node="index;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\login.php;f8;17;2;20;;C:\wamp\www\vistoria\application\controllers\Login.php;f8;17;2;20;;C:\wamp\www\vistoria\application\controllers\Login.php;f8;17;2;20;;;;vpos;;v;;r;;d24,17;;b0,0;;m">
 </treenode>
-<treenode node="logar;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\login.php;f8;23;2;56;;;;vpos;;v;;r;;d24,23;;b1,0;;m">
+<treenode node="logar;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\login.php;f8;22;2;57;;C:\wamp\www\vistoria\application\controllers\Login.php;f8;22;2;57;;C:\wamp\www\vistoria\application\controllers\Login.php;f8;22;2;57;;;;vpos;;v;;r;;d24,22;;b1,0;;m">
 </treenode>
-<treenode node="logout;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\login.php;f8;57;2;61;;;;vpos;;v;;r;;d25,57;;b1,0;;m">
-</treenode>
-</treenode>
-<treenode node="MY_Controller;PHP:Class Name;C:\wamp\www\vistoria\application\core\My_controller.php;f0;1;1;12;;;;vpos;;vCI_Controller;;c;;r;;d42,1;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;C:\wamp\www\vistoria\application\core\My_controller.php;f9;3;2;11;;;;vpos;;v;;r;;d32,3;;b1,0;;m">
+<treenode node="logout;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\login.php;f8;58;2;62;;C:\wamp\www\vistoria\application\controllers\Login.php;f8;58;2;62;;C:\wamp\www\vistoria\application\controllers\Login.php;f8;58;2;62;;;;vpos;;v;;r;;d25,58;;b1,0;;m">
 </treenode>
 </treenode>
-<treenode node="Painel;PHP:Class Name;C:\wamp\www\vistoria\application\controllers\Codelobster0.php;f0;1;2;6;;;;vpos;;vCI_Controller;;c;;r;;d35,1;;b0,0;;m">
-<treenode node="index;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Codelobster0.php;f9;3;2;6;;;;vpos;;v;;r;;d1,4;;b1,0;;m">
+<treenode node="MY_Controller;PHP:Class Name;C:\wamp\www\vistoria\application\core\MY_controller.php;f0;1;1;12;;;;vpos;;vCI_Controller;;c;;r;;d42,1;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\wamp\www\vistoria\application\core\MY_controller.php;f9;3;3;11;;;;vpos;;v;;r;;d32,3;;b1,0;;m">
 </treenode>
 </treenode>
-<treenode node="Usuario;PHP:Class Name;C:\wamp\www\tarifador\application\models\usuario.php;f0;2;1;60;;C:\wamp\www\vistoria\application\controllers\Usuario.php;f0;3;1;186;;C:\wamp\www\vistoria\application\controllers\Person.php;f0;3;1;189;;;;vpos;;vCI_Controller;;c;;r;;d36,3;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;5;2;9;;C:\wamp\www\vistoria\application\controllers\Codelobster0.php;f8;3;2;7;;C:\wamp\www\vistoria\application\controllers\Person.php;f8;5;2;9;;;;vpos;;v;;r;;d1,6;;b1,0;;m">
+<treenode node="Painel;PHP:Class Name;C:\wamp\www\vistoria\application\controllers\Codelobster0.php;f0;1;1;7;;C:\wamp\www\vistoria\application\controllers\Painel.php;f0;1;1;17;;;;vpos;;vCI_Controller;;c;;r;;d35,1;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Painel.php;f9;3;2;11;;;;vpos;;v;;r;;d32,3;;b1,0;;m">
 </treenode>
-<treenode node="_validate;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f9;110;2;184;;C:\wamp\www\vistoria\application\controllers\Person.php;f9;113;2;187;;;;vpos;;v;;r;;d1,114;;b3,0;;m">
-</treenode>
-<treenode node="ajax_add;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;62;2;78;;C:\wamp\www\vistoria\application\controllers\Person.php;f8;61;2;79;;;;vpos;;v;;r;;d1,62;;b1,0;;m">
-</treenode>
-<treenode node="ajax_bulk_delete;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;101;2;108;;C:\wamp\www\vistoria\application\controllers\Person.php;f8;104;2;111;;;;vpos;;v;;r;;d1,105;;b1,0;;m">
-</treenode>
-<treenode node="ajax_delete;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;95;2;99;;C:\wamp\www\vistoria\application\controllers\Person.php;f8;98;2;102;;;;vpos;;v;;r;;d1,99;;b1,0;;mid;;p">
-</treenode>
-<treenode node="ajax_edit;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;55;3;60;;C:\wamp\www\vistoria\application\controllers\Person.php;f8;54;3;59;;;;vpos;;v;;r;;d1,55;;b1,0;;mid;;p">
-</treenode>
-<treenode node="ajax_list;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;18;2;53;;C:\wamp\www\vistoria\application\controllers\Person.php;f8;17;2;52;;;;vpos;;v;;r;;d1,18;;b1,0;;m">
-</treenode>
-<treenode node="ajax_update;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;80;2;93;;C:\wamp\www\vistoria\application\controllers\Person.php;f8;81;2;96;;;;vpos;;v;;r;;d1,82;;b1,0;;m">
-</treenode>
-<treenode node="get_dadosUser;PHP:Function Name;C:\wamp\www\tarifador\application\models\usuario.php;f8;20;2;58;;;;vpos;;v;;r;;d38,20;;b1,0;;mdata;;p">
-</treenode>
-<treenode node="index;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;11;2;16;;C:\wamp\www\vistoria\application\controllers\Person.php;f8;11;2;15;;;;vpos;;v;;r;;d1,12;;b1,0;;m">
-</treenode>
-<treenode node="login;PHP:Function Name;C:\wamp\www\tarifador\application\models\usuario.php;f8;4;2;19;;;;vpos;;v;;r;;d30,4;;b1,0;;mdata;;p">
+<treenode node="index;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Codelobster0.php;f9;3;2;6;;C:\wamp\www\vistoria\application\controllers\Painel.php;f8;13;2;16;;;;vpos;;v;;r;;d1,14;;b1,0;;m">
 </treenode>
 </treenode>
-<treenode node="Usuario_model;PHP:Class Name;C:\wamp\www\vistoria\application\models\Person_model.php;f0;3;1;162;;;;vpos;;vCI_Model;;c;;r;;d37,3;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;67;2;71;;;;vpos;;v;;r;;d1,68;;b1,0;;m">
+<treenode node="Person;PHP:Class Name;C:\wamp\www\vistoria\application\controllers\Person.php;f0;3;1;185;;;;vpos;;vCI_Controller;;c;;r;;d35,3;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Person.php;f8;5;2;9;;;;vpos;;v;;r;;d1,6;;b1,0;;m">
 </treenode>
-<treenode node="_get_datatables_query;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f9;73;2;110;;;;vpos;;v;;r;;d1,74;;b3,0;;m">
+<treenode node="_validate;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Person.php;f9;109;2;183;;;;vpos;;v;;r;;d1,110;;b3,0;;m">
 </treenode>
-<treenode node="count_all;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;128;2;132;;;;vpos;;v;;r;;d1,129;;b1,0;;m">
+<treenode node="ajax_add;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Person.php;f8;61;2;77;;;;vpos;;v;;r;;d1,62;;b1,0;;m">
 </treenode>
-<treenode node="count_filtered;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f1;121;2;126;;;;vpos;;v;;r;;d1,122;;b0,0;;m">
+<treenode node="ajax_bulk_delete;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Person.php;f8;100;2;107;;;;vpos;;v;;r;;d1,101;;b1,0;;m">
 </treenode>
-<treenode node="delete_by_id;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;155;2;159;;;;vpos;;v;;r;;d1,156;;b1,0;;mid;;p">
+<treenode node="ajax_delete;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Person.php;f8;94;2;98;;;;vpos;;v;;r;;d1,95;;b1,0;;mid;;p">
 </treenode>
-<treenode node="get_by_id;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;134;2;141;;;;vpos;;v;;r;;d1,135;;b1,0;;mid;;p">
+<treenode node="ajax_edit;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Person.php;f8;54;3;59;;;;vpos;;v;;r;;d1,55;;b1,0;;mid;;p">
 </treenode>
-<treenode node="get_dadosUser;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f9;21;2;59;;;;vpos;;v;;r;;d39,21;;b1,0;;mdata;;p">
+<treenode node="ajax_list;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Person.php;f8;17;2;52;;;;vpos;;v;;r;;d1,18;;b1,0;;m">
 </treenode>
-<treenode node="get_datatables;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f1;112;2;119;;;;vpos;;v;;r;;d1,113;;b0,0;;m">
+<treenode node="ajax_update;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Person.php;f8;79;2;92;;;;vpos;;v;;r;;d1,80;;b1,0;;m">
 </treenode>
-<treenode node="login;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f9;5;2;20;;;;vpos;;v;;r;;d31,5;;b1,0;;mdata;;p">
+<treenode node="index;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Person.php;f8;11;2;15;;;;vpos;;v;;r;;d1,12;;b1,0;;m">
 </treenode>
-<treenode node="save;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;143;2;147;;;;vpos;;v;;r;;d1,144;;b1,0;;mdata;;p">
 </treenode>
-<treenode node="update;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;149;2;153;;;;vpos;;v;;r;;d1,150;;b1,0;;mwhere;;pdata;;p">
+<treenode node="Person_model;PHP:Class Name;C:\wamp\www\vistoria\application\models\Person_model.php;f0;3;1;163;;;;vpos;;vCI_Model;;c;;r;;d36,3;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;68;2;72;;;;vpos;;v;;r;;d1,69;;b1,0;;m">
+</treenode>
+<treenode node="_get_datatables_query;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f9;74;2;111;;;;vpos;;v;;r;;d1,75;;b3,0;;m">
+</treenode>
+<treenode node="count_all;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;129;2;133;;;;vpos;;v;;r;;d1,130;;b1,0;;m">
+</treenode>
+<treenode node="count_filtered;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f1;122;2;127;;;;vpos;;v;;r;;d1,123;;b0,0;;m">
+</treenode>
+<treenode node="delete_by_id;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;156;2;160;;;;vpos;;v;;r;;d1,157;;b1,0;;mid;;p">
+</treenode>
+<treenode node="get_by_id;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;135;2;142;;;;vpos;;v;;r;;d1,136;;b1,0;;mid;;p">
+</treenode>
+<treenode node="get_dadosUser;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f9;25;2;63;;;;vpos;;v;;r;;d39,25;;b1,0;;mdata;;p">
+</treenode>
+<treenode node="get_datatables;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f1;113;2;120;;;;vpos;;v;;r;;d1,114;;b0,0;;m">
+</treenode>
+<treenode node="login;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f9;9;2;24;;;;vpos;;v;;r;;d31,9;;b1,0;;mdata;;p">
+</treenode>
+<treenode node="save;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;144;2;148;;;;vpos;;v;;r;;d1,145;;b1,0;;mdata;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;150;2;154;;;;vpos;;v;;r;;d1,151;;b1,0;;mwhere;;pdata;;p">
+</treenode>
+</treenode>
+<treenode node="Usuario;PHP:Class Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f0;3;1;212;;;;vpos;;vMY_Controller;;c;;r;;d36,3;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;4;2;15;;;;vpos;;v;;r;;d31,4;;b1,0;;m">
+</treenode>
+<treenode node="_validate;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f9;136;2;210;;;;vpos;;v;;r;;d1,137;;b3,0;;m">
+</treenode>
+<treenode node="ajax_add;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;84;2;102;;;;vpos;;v;;r;;d1,85;;b1,0;;m">
+</treenode>
+<treenode node="ajax_bulk_delete;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;127;2;134;;;;vpos;;v;;r;;d1,128;;b1,0;;m">
+</treenode>
+<treenode node="ajax_delete;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;121;2;125;;;;vpos;;v;;r;;d1,122;;b1,0;;mid;;p">
+</treenode>
+<treenode node="ajax_edit;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;77;3;82;;;;vpos;;v;;r;;d1,78;;b1,0;;mid;;p">
+</treenode>
+<treenode node="ajax_list;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;24;2;59;;;;vpos;;v;;r;;d1,25;;b1,0;;m">
+</treenode>
+<treenode node="ajax_update;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;104;2;119;;;;vpos;;v;;r;;d1,105;;b1,0;;m">
+</treenode>
+<treenode node="encripta;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f11;61;5;74;;;;vpos;;v;;r;;d36,61;;b0,0;;msenha;;p">
+</treenode>
+<treenode node="index;PHP:Function Name;C:\wamp\www\vistoria\application\controllers\Usuario.php;f8;17;2;22;;;;vpos;;v;;r;;d1,18;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="Usuario_model;PHP:Class Name;C:\wamp\www\vistoria\application\models\Usuario_model.php;f0;3;1;159;;;;vpos;;vCI_Model;;c;;r;;d37,3;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;64;2;68;;C:\wamp\www\vistoria\application\models\Person_model.php;f8;64;2;68;;C:\wamp\www\vistoria\application\models\Usuario_model.php;f8;64;2;68;;;;vpos;;v;;r;;d1,65;;b1,0;;m">
+</treenode>
+<treenode node="_get_datatables_query;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f9;70;2;107;;C:\wamp\www\vistoria\application\models\Person_model.php;f9;70;2;107;;C:\wamp\www\vistoria\application\models\Usuario_model.php;f9;70;2;107;;;;vpos;;v;;r;;d1,71;;b3,0;;m">
+</treenode>
+<treenode node="count_all;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;125;2;129;;C:\wamp\www\vistoria\application\models\Person_model.php;f8;125;2;129;;C:\wamp\www\vistoria\application\models\Usuario_model.php;f8;125;2;129;;;;vpos;;v;;r;;d1,126;;b1,0;;m">
+</treenode>
+<treenode node="count_filtered;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f1;118;2;123;;C:\wamp\www\vistoria\application\models\Person_model.php;f1;118;2;123;;C:\wamp\www\vistoria\application\models\Usuario_model.php;f1;118;2;123;;;;vpos;;v;;r;;d1,119;;b0,0;;m">
+</treenode>
+<treenode node="delete_by_id;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;152;2;156;;C:\wamp\www\vistoria\application\models\Person_model.php;f8;152;2;156;;C:\wamp\www\vistoria\application\models\Usuario_model.php;f8;152;2;156;;;;vpos;;v;;r;;d1,153;;b1,0;;mid;;p">
+</treenode>
+<treenode node="get_by_id;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;131;2;138;;C:\wamp\www\vistoria\application\models\Person_model.php;f8;131;2;138;;C:\wamp\www\vistoria\application\models\Usuario_model.php;f8;131;2;138;;;;vpos;;v;;r;;d1,132;;b1,0;;mid;;p">
+</treenode>
+<treenode node="get_dadosUser;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f9;21;2;56;;C:\wamp\www\vistoria\application\models\Person_model.php;f9;21;2;56;;C:\wamp\www\vistoria\application\models\Usuario_model.php;f9;21;2;56;;;;vpos;;v;;r;;d39,21;;b1,0;;mdata;;p">
+</treenode>
+<treenode node="get_datatables;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f1;109;2;116;;C:\wamp\www\vistoria\application\models\Person_model.php;f1;109;2;116;;C:\wamp\www\vistoria\application\models\Usuario_model.php;f1;109;2;116;;;;vpos;;v;;r;;d1,110;;b0,0;;m">
+</treenode>
+<treenode node="login;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f9;5;2;20;;C:\wamp\www\vistoria\application\models\Person_model.php;f9;5;2;20;;C:\wamp\www\vistoria\application\models\Usuario_model.php;f9;5;3;20;;;;vpos;;v;;r;;d31,5;;b1,0;;mdata;;p">
+</treenode>
+<treenode node="save;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;140;2;144;;C:\wamp\www\vistoria\application\models\Person_model.php;f8;140;2;144;;C:\wamp\www\vistoria\application\models\Usuario_model.php;f8;140;2;144;;;;vpos;;v;;r;;d1,141;;b1,0;;mdata;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;C:\wamp\www\vistoria\application\models\Person_model.php;f8;146;2;150;;C:\wamp\www\vistoria\application\models\Person_model.php;f8;146;2;150;;C:\wamp\www\vistoria\application\models\Usuario_model.php;f8;146;2;150;;;;vpos;;v;;r;;d1,147;;b1,0;;mwhere;;pdata;;p">
 </treenode>
 </treenode>
 <treenode node="XML_RPC_Client;PHP:Class Name;C:\wamp\www\vistoria\system\libraries\Xmlrpc.php;f0;563;1;776;;;;vpos;;vCI_Xmlrpc;;c;;r Definition     class XML_RPC_Client extends CI_Xmlrpc  Description      XML-RPC Client class;;d0,564;;b0,0;;m">

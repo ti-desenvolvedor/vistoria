@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link href="<?php echo base_url('assets/font-awesome-4.3.0/css/font-awesome.min.css'); ?>" rel="stylesheet" media="screen">
     <link rel="icon" type="image/gif" href="<?php echo base_url().'assets/imagens/icon-sold.gif';?>">
      <link rel="shortcut icon" type="image/gif"  href="<?php echo base_url().'assets/imagens/icon-sold.gif'; ?>">
     <script type="text/javascript" src="<?php echo base_url().'assets/plugins/jquery/jquery-2.1.4.min.js'; ?>"></script>	

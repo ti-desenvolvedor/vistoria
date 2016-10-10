@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\wamp\www\vistoria\vistoria.clpprj">
-	<settings><PM_URL><![CDATA[http://localhost/vistoria/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/vistoria/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
-		<file name="C:\wamp\www\vistoria\application\views\v_login.php"/>
-		<file name="C:\wamp\www\vistoria\application\config\config.php"/>
-		<file name="C:\wamp\www\vistoria\application\config\autoload.php"/>
-		<file name="C:\wamp\www\vistoria\application\models\Usuario_model.php"/>
-		<file name="C:\wamp\www\vistoria\application\controllers\Usuario.php"/>
-		<file name="C:\wamp\www\vistoria\application\core\My_controller.php"/>
-		<file name="C:\wamp\www\vistoria\application\views\usuario_view.php"/>
-		<file name="C:\wamp\www\vistoria\application\controllers\login.php"/>
-		<file name="C:\wamp\www\vistoria\application\views\layout\header.php"/>
-		<file name="C:\wamp\www\vistoria\application\views\layout\menu.php"/>
-		<file name="C:\wamp\www\vistoria\application\controllers\Codelobster0.php"/>
+	<settings><PM_URL><![CDATA[http://localhost/vistoria/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/vistoria/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\wamp\www\vistoria\application\controllers\Codelobster0.php;C:\wamp\www\vistoria\application\views\person_view.php;"/><added value=""/><lastopfiles>
 	</lastopfiles>
+	<errors version="5.3">
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
 	<todoblock>
 		<todofile name="C:\wamp\www\vistoria\system\core\Loader.php">
 			<todo name="todo Figure out a way to move this to the constructor" pos="5;148"/>
@@ -303,9 +302,9 @@
 		<file name="C:\wamp\www\vistoria\assets\bootstrap\js\bootstrap.min.js" crc="1469472810"/>
 		<file name="C:\wamp\www\vistoria\assets\bootstrap\css\bootstrap.min.css" crc="1469472808"/>
 		<file name="C:\wamp\www\vistoria\assets\bootstrap\css\bootstrap-theme.min.css" crc="1469472808"/>
-		<file name="C:\wamp\www\vistoria\application\views\layout\menu.php" crc="1475968262"/>
-		<file name="C:\wamp\www\vistoria\application\views\layout\header.php" crc="1475850562"/>
-		<file name="C:\wamp\www\vistoria\application\views\layout\foot.php" crc="1475960264"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\menu.php" crc="1475973778"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\header.php" crc="1475971289"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\foot.php" crc="1475980563"/>
 		<file name="C:\wamp\www\vistoria\application\views\errors\html\index.html" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_php.php" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_general.php" crc="1469540208"/>
@@ -319,11 +318,13 @@
 		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_db.php" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_404.php" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\views\errors\index.html" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\v_login.php" crc="1475961997"/>
-		<file name="C:\wamp\www\vistoria\application\views\person_view.php" crc="1475966110"/>
+		<file name="C:\wamp\www\vistoria\application\views\v_login.php" crc="1476046838"/>
+		<file name="C:\wamp\www\vistoria\application\views\usuario_view.php" crc="1475980631"/>
+		<file name="C:\wamp\www\vistoria\application\views\painel_view.php" crc="1475981438"/>
 		<file name="C:\wamp\www\vistoria\application\views\index.html" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\third_party\index.html" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\models\Person_model.php" crc="1475964607"/>
+		<file name="C:\wamp\www\vistoria\application\models\Usuario_model.php" crc="1475978077"/>
+		<file name="C:\wamp\www\vistoria\application\models\Person_model.php" crc="1475972640"/>
 		<file name="C:\wamp\www\vistoria\application\models\index.html" crc="1444299834"/>
 		<file name="C:\wamp\www\vistoria\application\logs\index.html" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\libraries\index.html" crc="1469540208"/>
@@ -359,16 +360,15 @@
 		<file name="C:\wamp\www\vistoria\application\language\index.html" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\hooks\index.html" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\helpers\index.html" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\core\My_controller.php" crc="1458672534"/>
+		<file name="C:\wamp\www\vistoria\application\core\MY_controller.php" crc="1476018156"/>
 		<file name="C:\wamp\www\vistoria\application\core\index.html" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\controllers\Usuario.php" crc="1475968704"/>
-		<file name="C:\wamp\www\vistoria\application\controllers\Person.php" crc="1475963684"/>
-		<file name="C:\wamp\www\vistoria\application\controllers\login.php" crc="1475964790"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\Usuario.php" crc="1476063260"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\Painel.php" crc="1476042715"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\Login.php" crc="1476045198"/>
 		<file name="C:\wamp\www\vistoria\application\controllers\index.html" crc="1444299834"/>
-		<file name="C:\wamp\www\vistoria\application\controllers\Codelobster0.php" crc="1475968430"/>
 		<file name="C:\wamp\www\vistoria\application\config\user_agents.php" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\config\smileys.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\config\routes.php" crc="1475962086"/>
+		<file name="C:\wamp\www\vistoria\application\config\routes.php" crc="1476044060"/>
 		<file name="C:\wamp\www\vistoria\application\config\profiler.php" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\config\mimes.php" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\config\migration.php" crc="1469540208"/>
@@ -377,16 +377,16 @@
 		<file name="C:\wamp\www\vistoria\application\config\hooks.php" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\config\foreign_chars.php" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\config\doctypes.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\config\database.php" crc="1473204011"/>
+		<file name="C:\wamp\www\vistoria\application\config\database.php" crc="1476017627"/>
 		<file name="C:\wamp\www\vistoria\application\config\constants.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\config\config.php" crc="1475962031"/>
-		<file name="C:\wamp\www\vistoria\application\config\autoload.php" crc="1475962207"/>
+		<file name="C:\wamp\www\vistoria\application\config\config.php" crc="1476063381"/>
+		<file name="C:\wamp\www\vistoria\application\config\autoload.php" crc="1476020804"/>
 		<file name="C:\wamp\www\vistoria\application\cache\index.html" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\cache\.htaccess" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\index.html" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\.htaccess" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\license.txt" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\index.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\.htaccess" crc="1436809400"/>
+		<file name="C:\wamp\www\vistoria\.htaccess" crc="1476044680"/>
 	</filescache>
 </project>

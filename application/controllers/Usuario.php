@@ -2,50 +2,57 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Usuario extends MY_Controller {
-
-	public function __construct()
-	{
+	public function __construct() {
 		parent::__construct();
-		$this->load->model('Usuario_model','Usuario');
+
+		// Load form validation library
+		// $this->load->library('form_validation');
+
+		// Load session library
+		//$this->load->library('session');
+
+		// Load database
+		$this->load->model('usuario_model','usuario');
 	}
 
 	public function index()
 	{
 		//$this->load->view('Person_view');
-		$this->load->view('Usuario_view');
+		
+		$this->load->view('usuario_view');
 	}
 
 	public function ajax_list()
 	{
 		$this->load->helper('url');
 
-		$list = $this->Usuario->get_datatables();
+		$list = $this->usuario->get_datatables();
 		$data = array();
 		$no = $_POST['start'];
-		foreach ($list as $Usuario) {
+		foreach ($list as $usuario) {
 			$no++;
 			$row = array();
-			$row[] = '<input type="checkbox" class="data-check" value="'.$Usuario->id.'">';
-			$row[] = $Usuario->nome;
-			$row[] = $Usuario->sobrenome;
-			$row[] = $Usuario->email;
-            $row[] = $Usuario->sexo;
-			$row[] = $Usuario->usuario;
-            $row[] = $Usuario->senha;
-			$row[] = $Usuario->endereco;
-			$row[] = $Usuario->aniversario;
+			$row[] = '<input type="checkbox" class="data-check" value="'.$usuario->id.'">';
+			$row[] = $usuario->nome;
+			$row[] = $usuario->sobrenome;
+			$row[] = $usuario->email;
+            $row[] = $usuario->sexo;
+			$row[] = $usuario->usuario;
+            $row[] = $usuario->senha;
+			$row[] = $usuario->endereco;
+			$row[] = $usuario->aniversario;
 
 			//add html for action
-			$row[] = '<a class="btn btn-sm btn-primary" href="javascript:void(0)" title="Edit" onclick="edit_usuario('."'".$Usuario->id."'".')"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
-				  <a class="btn btn-sm btn-danger" href="javascript:void(0)" title="Hapus" onclick="delete_usuario('."'".$Usuario->id."'".')"><i class="glyphicon glyphicon-trash"></i> Delete</a>';
+			$row[] = '<a class="btn btn-sm btn-primary" href="javascript:void(0)" title="Edit" onclick="edit_usuario('."'".$usuario->id."'".')"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
+				  <a class="btn btn-sm btn-danger" href="javascript:void(0)" title="Hapus" onclick="delete_usuario('."'".$usuario->id."'".')"><i class="glyphicon glyphicon-trash"></i> Delete</a>';
 		
 			$data[] = $row;
 		}
 
 		$output = array(
 						"draw" => $_POST['draw'],
-						"recordsTotal" => $this->Usuario->count_all(),
-						"recordsFiltered" => $this->Usuario->count_filtered(),
+						"recordsTotal" => $this->usuario->count_all(),
+						"recordsFiltered" => $this->usuario->count_filtered(),
 						"data" => $data,
 				);
 		//output to json format
@@ -70,7 +77,7 @@ class Usuario extends MY_Controller {
     // echo encripta("eduardo");
 	public function ajax_edit($id)
 	{
-		$data = $this->Usuario->get_by_id($id);
+		$data = $this->usuario->get_by_id($id);
 		$data->aniversario = ($data->aniversario == '0000-00-00') ? '' : $data->aniversario; // if 0000-00-00 set tu empty for datepicker compatibility
 		echo json_encode($data);
 		}
@@ -90,7 +97,7 @@ class Usuario extends MY_Controller {
 				'aniversario' => $this->input->post('aniversario'),
 			);
 
-		$insert = $this->Usuario->save($data);
+		$insert = $this->usuario->save($data);
 
 		echo json_encode(array("status" => TRUE));
 	}
@@ -108,13 +115,13 @@ class Usuario extends MY_Controller {
 				'endereco' => $this->input->post('endereco'),
 				'aniversario' => $this->input->post('aniversario'),
 			);
-		$this->Usuario->update(array('id' => $this->input->post('id')), $data);
+		$this->usuario->update(array('id' => $this->input->post('id')), $data);
 		echo json_encode(array("status" => TRUE));
 	}
 
 	public function ajax_delete($id)
 	{
-		$this->Usuario->delete_by_id($id);
+		$this->usuario->delete_by_id($id);
 		echo json_encode(array("status" => TRUE));
 	}
 
@@ -122,7 +129,7 @@ class Usuario extends MY_Controller {
 	{
 		$list_id = $this->input->post('id');
 		foreach ($list_id as $id) {
-			$this->Usuario->delete_by_id($id);
+			$this->usuario->delete_by_id($id);
 		}
 		echo json_encode(array("status" => TRUE));
 	}
