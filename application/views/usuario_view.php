@@ -32,7 +32,7 @@
         <button class="btn btn-danger" onclick="bulk_delete()"><i class="glyphicon glyphicon-trash"></i> Bulk Delete</button>
         <br />
         <br />
-        <table id="table" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <table id="table" class="table table-responsive table-hover table-striped table-bordered" cellspacing="0" width="100%">
             <thead>
                 <tr>
                     <th><input type="checkbox" id="check-all"></th>
@@ -49,7 +49,6 @@
             </thead>
             <tbody>
             </tbody>
-
             <tfoot>
             <tr>
                 <th></th>
@@ -86,6 +85,10 @@ $(document).ready(function() {
     //datatables
     table = $('#table').DataTable({ 
 
+		"language": {
+        	"url": "<?php echo site_url('assets/datatables/js/pt-br.json')?>",
+        },
+
         "processing": true, //Feature control the processing indicator.
         "serverSide": true, //Feature control DataTables' server-side processing mode.
         "order": [], //Initial no order.
@@ -110,7 +113,13 @@ $(document).ready(function() {
         ],
 
     });
-
+    $('#table').on( 'click', 'tr', function () {
+        $(this).toggleClass('info');
+    } );
+ 
+    $('#button').click( function () {
+        alert( table.rows('.selected').data().length +' row(s) selected' );
+    } );
     //datepicker
     $('.datepicker').datepicker({
         autoclose: true,
@@ -282,7 +291,7 @@ function bulk_delete()
     });
     if(list_id.length > 0)
     {
-        if(confirm('Are you sure delete this '+list_id.length+' data?'))
+        if(confirm('Você deseja Deletar ('+list_id.length+') registros?'))
         {
             $.ajax({
                 type: "POST",
@@ -297,20 +306,20 @@ function bulk_delete()
                     }
                     else
                     {
-                        alert('Failed.');
+                        alert('Falhou.');
                     }
                     
                 },
                 error: function (jqXHR, textStatus, errorThrown)
                 {
-                    alert('Error deleting data');
+                    alert('Error ao tentar deletar dados');
                 }
             });
         }
     }
     else
     {
-        alert('no data selected');
+        alert('Nenhum item selecionado');
     }
 }
 
