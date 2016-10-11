@@ -43,8 +43,8 @@ class Usuario extends MY_Controller {
 			$row[] = $usuario->aniversario;
 
 			//add html for action
-			$row[] = '<a class="btn btn-sm btn-primary" href="javascript:void(0)" title="Edit" onclick="edit_usuario('."'".$usuario->id."'".')"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
-				  <a class="btn btn-sm btn-danger" href="javascript:void(0)" title="Hapus" onclick="delete_usuario('."'".$usuario->id."'".')"><i class="glyphicon glyphicon-trash"></i> Delete</a>';
+			$row[] = '<a class="btn btn-sm btn-primary" href="javascript:void(0)" title="Edit linha" onclick="edit_usuario('."'".$usuario->id."'".')"><i class="glyphicon glyphicon-pencil"></i> Edit</a>
+				  <a class="btn btn-sm btn-danger" href="javascript:void(0)" title="Apagar linha" onclick="delete_usuario('."'".$usuario->id."'".')"><i class="glyphicon glyphicon-trash"></i> Apagar</a>';
 		
 			$data[] = $row;
 		}

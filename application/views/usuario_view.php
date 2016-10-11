@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vistória</title>
+    <title>Extranet - Usuários</title>
     <link href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/datatables/css/dataTables.bootstrap.min.css')?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/bootstrap-datepicker/css/bootstrap-datepicker3.min.css')?>" rel="stylesheet">
@@ -25,11 +25,10 @@
 		  <li><a href="#">Administração</a></li>
 		  <li class="active">Usuário</li>
 		</ol>
-        <h1 style="font-size:20pt">Lista de Usuarios</h1>
-
-        <button class="btn btn-success" onclick="add_usuario()"><i class="glyphicon glyphicon-plus"></i> Add usuario</button>
-        <button class="btn btn-default" onclick="reload_table()"><i class="glyphicon glyphicon-refresh"></i> Reload</button>
-        <button class="btn btn-danger" onclick="bulk_delete()"><i class="glyphicon glyphicon-trash"></i> Bulk Delete</button>
+        <h1 style="font-size:20pt">Lista de Usuários</h1>
+        <button class="btn btn-success" onclick="add_usuario()"><i class="glyphicon glyphicon-plus"></i> Add Usuário</button>
+        <button class="btn btn-default" onclick="reload_table()"><i class="glyphicon glyphicon-refresh"></i> Atualizar</button>
+        <button class="btn btn-danger" onclick="bulk_delete()"><i class="glyphicon glyphicon-trash"></i> Apagar Itens</button>
         <br />
         <br />
         <table id="table" class="table table-responsive table-hover table-striped table-bordered" cellspacing="0" width="100%">
@@ -113,13 +112,7 @@ $(document).ready(function() {
         ],
 
     });
-    $('#table').on( 'click', 'tr', function () {
-        $(this).toggleClass('info');
-    } );
- 
-    $('#button').click( function () {
-        alert( table.rows('.selected').data().length +' row(s) selected' );
-    } );
+	
     //datepicker
     $('.datepicker').datepicker({
         autoclose: true,
@@ -162,7 +155,6 @@ function add_usuario()
     $('.help-block').empty(); // clear error string
     $('#modal_form').modal('show'); // show bootstrap modal
     $('.modal-title').text('Add usuario'); // Set Title to Bootstrap modal title
-
 }
 
 function edit_usuario(id)
@@ -191,7 +183,7 @@ function edit_usuario(id)
             $('[name="endereco"]').val(data.endereco);
             $('[name="aniversario"]').datepicker('update',data.aniversario);
             $('#modal_form').modal('show'); // show bootstrap modal when complete loaded
-            $('.modal-title').text('Edit usuario'); // Set title to Bootstrap modal title
+            $('.modal-title').text('Editar Usuário'); // Set title to Bootstrap modal title
 
 
         },
@@ -209,7 +201,7 @@ function reload_table()
 
 function save()
 {
-    $('#btnSave').text('saving...'); //change button text
+    $('#btnSave').text('Sanlvando...'); //change button text
     $('#btnSave').attr('disabled',true); //set button disable 
     var url;
 

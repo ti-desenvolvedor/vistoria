@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\wamp\www\vistoria\vistoria.clpprj">
 	<settings><PM_URL><![CDATA[http://localhost/vistoria/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/vistoria/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\wamp\www\vistoria\application\controllers\Codelobster0.php;C:\wamp\www\vistoria\application\views\person_view.php;"/><added value=""/><lastopfiles>
+		<file name="C:\wamp\www\vistoria\application\views\v_login.php"/>
+		<file name="C:\wamp\www\vistoria\application\views\usuario_view.php"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\Usuario.php"/>
 	</lastopfiles>
 	<errors version="5.3">
 	</errors>
@@ -56,8 +59,6 @@
 			<todo name="@todo - this needs to be made more general purpose" pos="6;1574"/>
 		</todofile>
 	</todoblock>
-	<dbgurls>
-	</dbgurls>
 	<filescache>
 		<file name="C:\wamp\www\vistoria\system\libraries\Session\drivers\Session_redis_driver.php" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\system\libraries\Session\drivers\Session_memcached_driver.php" crc="1469540208"/>
@@ -292,6 +293,7 @@
 		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\css\font-awesome.min.css" crc="1435158148"/>
 		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\css\font-awesome.css" crc="1435158148"/>
 		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\HELP-US-OUT.txt" crc="1435158146"/>
+		<file name="C:\wamp\www\vistoria\assets\datatables\js\pt-br.js" crc="1476138352"/>
 		<file name="C:\wamp\www\vistoria\assets\datatables\js\jquery.dataTables.min.js" crc="1463764258"/>
 		<file name="C:\wamp\www\vistoria\assets\datatables\js\dataTables.bootstrap.min.js" crc="1463764258"/>
 		<file name="C:\wamp\www\vistoria\assets\datatables\css\jquery.dataTables.min.css" crc="1463764258"/>
@@ -319,7 +321,7 @@
 		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_404.php" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\views\errors\index.html" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\views\v_login.php" crc="1476046838"/>
-		<file name="C:\wamp\www\vistoria\application\views\usuario_view.php" crc="1475980631"/>
+		<file name="C:\wamp\www\vistoria\application\views\usuario_view.php" crc="1476150897"/>
 		<file name="C:\wamp\www\vistoria\application\views\painel_view.php" crc="1475981438"/>
 		<file name="C:\wamp\www\vistoria\application\views\index.html" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\third_party\index.html" crc="1469540208"/>
@@ -362,7 +364,7 @@
 		<file name="C:\wamp\www\vistoria\application\helpers\index.html" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\core\MY_controller.php" crc="1476018156"/>
 		<file name="C:\wamp\www\vistoria\application\core\index.html" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\controllers\Usuario.php" crc="1476063260"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\Usuario.php" crc="1476150803"/>
 		<file name="C:\wamp\www\vistoria\application\controllers\Painel.php" crc="1476042715"/>
 		<file name="C:\wamp\www\vistoria\application\controllers\Login.php" crc="1476045198"/>
 		<file name="C:\wamp\www\vistoria\application\controllers\index.html" crc="1444299834"/>
