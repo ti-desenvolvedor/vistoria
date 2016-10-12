@@ -6,9 +6,8 @@
   	$dadosusuario['nome'] ='Admin User';
   	
   }
-  if(!isset($dadosusuario['Teste'])){
-  	$dadosusuario['sobrenome'] ='Gonçalves';
-  	
+  if(!isset($dadosusuario['sobrenome'])){
+  	$dadosusuario['sobrenome'] ='Gonçalves';	
   }
   ?>
 <div id="nav-top" class="navbar navbar-default navbar-static-top" role="navigation">
@@ -19,9 +18,10 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand" href="#"><img alt="Sold Leilões Online" src="<?php echo base_url('assets/imagens/Trading_phone_call_about_money_24.png');?>" /></a>
+              
+		<a class="navbar-brand" href="#"><i class="fa fa-internet-explorer fa-lg fa-inverse fa-border" aria-hidden="true">&nbsp&nbsp </i></a>
 		<a class="navbar-brand" href="#">
-			Vistória
+                        <i class="fa fa-internet-explorer fa-lg fa-inverse" aria-hidden="true">&nbsp&nbsp</i>&nbsp&nbspExtranet Sub Regional
 		 </a>
 	</div>
             <div class="navbar-collapse collapse">
