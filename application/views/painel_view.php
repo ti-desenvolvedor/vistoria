@@ -2,7 +2,7 @@
 	$this->load->view('layout/header.php');
 	$this->load->view('layout/menu.php');	
 ?>
-
+<div class="container-fluid">
 <ol class="breadcrumb">
 	<li></li><i class="fa fa-tags red fa-1x"></i><li>
   <li><a href="#">Home</a></li>
@@ -308,6 +308,7 @@
 	    </div>
 	</div>
 	
+</div>
 </div>
 <?php $this->load->view('layout/foot.php');?>
 

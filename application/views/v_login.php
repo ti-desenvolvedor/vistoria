@@ -75,19 +75,24 @@
         <![endif]-->
     </head>
     <body>
-        <div id="nav-top" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div id="nav-top" name="nav-top" class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div id="LAYOUT_HEADER" class="container-fluid">
-                <div class="navbar-header">
-		<a class="navbar-brand" href="#"><i class="fa-internet-explore fa-lg fa-inverse fa-border" aria-hidden="true">&nbsp&nbsp </i></a>
-		<a class="navbar-brand" href="#">
-		<i class="fa-internet-explore fa-lg fa-inverse" aria-hidden="true">&nbsp&nbsp</i>&nbsp&nbspExtranet Sub Regional
-		 </a>
+
+
+                <div class="navbar-header ">
+                    <a class="navbar-brand" href="#">            
+                        <i class="fa fa-internet-explorer fa-lg"></i>
+                    </a>
+                    <a class="navbar-brand" href="#">   
+                        Extranet Sub Regional
+                    </a>
                 </div>
             </div>
         </div>
+        <div id="topo"></div>
         <br/><br/><br/>
 
-        <div class="container ">
+        <div class="container " >
             <?php
             if (isset($logout_message)) {
                 echo "<div class='message'>";
@@ -95,9 +100,11 @@
                 echo "</div>";
             }
             ?>
+
             <form class="login panel panel-default " role="form" method="post" action="<?= base_url() . 'login/logar' ?>">
                 <div class=" panel-heading"> Login</div>
                 <div class="panel-body">
+
                     <h2 class="form-signin-heading">
                         <img class="profile-img-card" src="<?php echo base_url() . 'assets/imagens/avatar_2x.png'; ?>" width="150" height="58">
                     </h2><hr>
@@ -138,15 +145,35 @@
                 <div class="panel-footer pull-rigth">Recuperar seu <a href="#" >Usuario/Senha</a></div>
             </form>
         </div> <!-- /container -->
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/>            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/>            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/>            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/>   
         <!-- Navbar fixed bottom -->
         <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
             <div class="container">
                 <div class="navbar-collapse collapse">
                     <footer class="text-center col-md-12 small">
                         <br/>
-                        <h5 class="text-muted "><b>Copyright © 2016 - <?php echo date('Y'); ?> | Congregação Cristã no Brasil - <a href="http://www.congregacao.org.br">www.congregacao.org.br</a> - Todos os direitos reservados.</b></h5>
-                        <h6 class="text-warning">Desenvolvido por Thomas Gonçalves</h6>
-                        <br/>
+                        <h5 class="text-muted "><b>Copyright © 2016 - <?php echo date('Y'); ?> | Congregação Cristã no Brasil - <a href="http://www.congregacao.org.br" title="Congregação Cristã no Brasil">www.congregacao.org.br</a> - Todos os direitos reservados.</b></h5>
+                        <h6 class="text-warning">Desenvolvido por <a href="mailto:thomasgoncalves@yahoo.com.br" title="Analista TI - Thomas Gonçalves">Thomas Gonçalves</a> |            
+                            <i class="fa fa-code fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | <i class="fa fa-html5 fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | <i class="fa fa-css3 fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | <i class="fa fa-github fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | Compatibilidade: <i class="fa fa-desktop fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | <i class="fa fa-mobile fa-2 fa-lg fa-inverse" aria-hidden="true"></i>
+
+
+                            | 
+                            <i class="fa fa-windows fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | <i class="glyphicon glyphicon-apple"></i>| <i class="fa fa-linux fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | <i class="fa fa-android fa-2 fa-lg fa-inverse" aria-hidden="true"></i>
+
+
+                            | Navegadores: <i class="fa fa-safari fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | <i class="fa fa-firefox fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | <i class="fa fa-chrome fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | <i class="fa fa-edge fa-2 fa-lg fa-inverse" aria-hidden="true"></i>  
+                            <a class="btn" href="#topo" >
+                                <span class=" pull-right fa-stack fa-lg">
+                                    <i class="fa fa-square-o fa-stack-2x fa-inverse"></i>
+                                    <i class="fa fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+                                </span></a>
+                        </h6>
+
+
                     </footer>
 
                 </div><!--/.nav-collapse -->

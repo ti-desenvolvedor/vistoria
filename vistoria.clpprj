@@ -4,6 +4,11 @@
 		<file name="C:\wamp\www\vistoria\application\views\v_login.php"/>
 		<file name="C:\wamp\www\vistoria\application\views\usuario_view.php"/>
 		<file name="C:\wamp\www\vistoria\application\controllers\Usuario.php"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\header.php"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\menu.php"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\foot.php"/>
+		<file name="C:\wamp\www\vistoria\application\controllers\Painel.php"/>
+		<file name="C:\wamp\www\vistoria\application\views\painel_view.php"/>
 	</lastopfiles>
 	<errors version="5.3">
 	</errors>
@@ -264,36 +269,37 @@
 		<file name="C:\wamp\www\vistoria\nbproject\private\private.xml" crc="1475959617"/>
 		<file name="C:\wamp\www\vistoria\nbproject\project.xml" crc="1475850562"/>
 		<file name="C:\wamp\www\vistoria\assets\jquery\jquery-2.1.4.min.js" crc="1435261572"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\font-awesome.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_variables.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_stacked.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_rotated-flipped.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_path.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_mixins.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_list.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_larger.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_icons.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_fixed-width.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_core.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_bordered-pulled.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_animated.scss" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\variables.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\stacked.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\rotated-flipped.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\path.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\mixins.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\list.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\larger.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\icons.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\font-awesome.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\fixed-width.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\core.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\bordered-pulled.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\animated.less" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\css\font-awesome.min.css" crc="1435158148"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\css\font-awesome.css" crc="1435158148"/>
-		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\HELP-US-OUT.txt" crc="1435158146"/>
-		<file name="C:\wamp\www\vistoria\assets\datatables\js\pt-br.js" crc="1476138352"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\font-awesome.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_variables.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_stacked.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_screen-reader.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_rotated-flipped.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_path.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_mixins.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_list.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_larger.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_icons.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_fixed-width.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_core.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_bordered-pulled.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\scss\_animated.scss" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\variables.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\stacked.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\screen-reader.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\rotated-flipped.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\path.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\mixins.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\list.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\larger.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\icons.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\font-awesome.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\fixed-width.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\core.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\bordered-pulled.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\less\animated.less" crc="1473266179"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\css\font-awesome.min.css" crc="1473266180"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\css\font-awesome.css" crc="1473266180"/>
+		<file name="C:\wamp\www\vistoria\assets\font-awesome-4.3.0\HELP-US-OUT.txt" crc="1473266179"/>
 		<file name="C:\wamp\www\vistoria\assets\datatables\js\jquery.dataTables.min.js" crc="1463764258"/>
 		<file name="C:\wamp\www\vistoria\assets\datatables\js\dataTables.bootstrap.min.js" crc="1463764258"/>
 		<file name="C:\wamp\www\vistoria\assets\datatables\css\jquery.dataTables.min.css" crc="1463764258"/>
@@ -304,26 +310,26 @@
 		<file name="C:\wamp\www\vistoria\assets\bootstrap\js\bootstrap.min.js" crc="1469472810"/>
 		<file name="C:\wamp\www\vistoria\assets\bootstrap\css\bootstrap.min.css" crc="1469472808"/>
 		<file name="C:\wamp\www\vistoria\assets\bootstrap\css\bootstrap-theme.min.css" crc="1469472808"/>
-		<file name="C:\wamp\www\vistoria\application\views\layout\menu.php" crc="1475973778"/>
-		<file name="C:\wamp\www\vistoria\application\views\layout\header.php" crc="1475971289"/>
-		<file name="C:\wamp\www\vistoria\application\views\layout\foot.php" crc="1475980563"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\html\index.html" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_php.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_general.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_exception.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_db.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_404.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\cli\index.html" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_php.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_general.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_exception.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_db.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_404.php" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\errors\index.html" crc="1469540208"/>
-		<file name="C:\wamp\www\vistoria\application\views\v_login.php" crc="1476046838"/>
-		<file name="C:\wamp\www\vistoria\application\views\usuario_view.php" crc="1476150897"/>
-		<file name="C:\wamp\www\vistoria\application\views\painel_view.php" crc="1475981438"/>
-		<file name="C:\wamp\www\vistoria\application\views\index.html" crc="1469540208"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\menu.php" crc="1476317518"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\header.php" crc="1476310602"/>
+		<file name="C:\wamp\www\vistoria\application\views\layout\foot.php" crc="1476319119"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\html\index.html" crc="1476310595"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_php.php" crc="1476310597"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_general.php" crc="1476310597"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_exception.php" crc="1476310598"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_db.php" crc="1476310599"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\html\error_404.php" crc="1476310600"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\cli\index.html" crc="1476310584"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_php.php" crc="1476310588"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_general.php" crc="1476310588"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_exception.php" crc="1476310592"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_db.php" crc="1476310592"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\cli\error_404.php" crc="1476310595"/>
+		<file name="C:\wamp\www\vistoria\application\views\errors\index.html" crc="1476310582"/>
+		<file name="C:\wamp\www\vistoria\application\views\v_login.php" crc="1476323759"/>
+		<file name="C:\wamp\www\vistoria\application\views\usuario_view.php" crc="1476310574"/>
+		<file name="C:\wamp\www\vistoria\application\views\painel_view.php" crc="1476317627"/>
+		<file name="C:\wamp\www\vistoria\application\views\index.html" crc="1476310578"/>
 		<file name="C:\wamp\www\vistoria\application\third_party\index.html" crc="1469540208"/>
 		<file name="C:\wamp\www\vistoria\application\models\Usuario_model.php" crc="1475978077"/>
 		<file name="C:\wamp\www\vistoria\application\models\Person_model.php" crc="1475972640"/>

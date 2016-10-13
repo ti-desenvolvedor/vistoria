@@ -19,9 +19,8 @@
 				<span class="icon-bar"></span>
 		</button>
               
-		<a class="navbar-brand" href="#"><i class="fa fa-internet-explorer fa-lg fa-inverse fa-border" aria-hidden="true">&nbsp&nbsp </i></a>
 		<a class="navbar-brand" href="#">
-                        <i class="fa fa-internet-explorer fa-lg fa-inverse" aria-hidden="true">&nbsp&nbsp</i>&nbsp&nbspExtranet Sub Regional
+                        <i class="fa fa-internet-explorer fa-lg" aria-hidden="true">&nbsp&nbsp</i>&nbsp&nbspExtranet Sub Regional
 		 </a>
 	</div>
             <div class="navbar-collapse collapse">
@@ -85,5 +84,5 @@
 	</div>
           </div>
       </div>
-
+ <div id="topo"></div>
 
