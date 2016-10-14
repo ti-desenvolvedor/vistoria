@@ -8,3 +8,20 @@
 <!--api grafico google js-->
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <!--\api grafico google js--> 
+<script>
+$(function(){
+
+	$('#slide-submenu').on('click',function() {			        
+        $(this).closest('.list-group').fadeOut('slide',function(){
+        	$('.mini-submenu').fadeIn();	
+        });
+        
+      });
+
+	$('.mini-submenu').on('click',function(){		
+        $(this).next('.list-group').toggle('slide');
+        $('.mini-submenu').hide();
+	})
+})
+
+</script>

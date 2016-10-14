@@ -225,7 +225,7 @@ function save()
         },
         error: function (jqXHR, textStatus, errorThrown)
         {
-            alert('Error adding / update data');
+            alert('Error adicionar / Atualziar os dados!');
             $('#btnSave').text('save'); //change button text
             $('#btnSave').attr('disabled',false); //set button enable 
 
@@ -303,9 +303,9 @@ function bulk_delete()
 <div class="modal fade" id="modal_form" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h3 class="modal-title">usuario Form</h3>
+            <div class="modal-header bg-primary">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span  aria-hidden="true"><i class="fa fa-times-circle fa-1x btn" aria-hidden="true"></i></span></button>
+                <h3 class="modal-title">Usuário Form</h3>
             </div>
             <div class="modal-body form">
                 <form action="#" id="form" class="form-horizontal">
@@ -376,8 +376,8 @@ function bulk_delete()
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" id="btnSave" onclick="save()" class="btn btn-primary">Save</button>
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                <button type="button" id="btnSave" onclick="save()" class="btn btn-primary"><i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times-circle" aria-hidden="true"></i> Cancel</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

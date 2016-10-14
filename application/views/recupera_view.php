@@ -51,22 +51,9 @@
                     </div>
                     <div class="input-group">
                         <span class="input-group-addon">
-                            <i class="fa fa-user"></i>
-                        </span>
-                        <input type="text" class="form-control" placeholder="Usuario" autofocus name="usuario" value="<?php echo $this->input->post('usuario'); ?>">
-                    </div><!-- /input-group -->
-
-                    <div class="input-group">
-                        <span class="input-group-addon">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                         </span>
                         <input type="text" class="form-control" placeholder="E-mail" value="<?php echo $this->input->post('email'); ?>" required name="email">
-                    </div><!-- /input-group -->
-                    <div class="input-group">
-                        <span class="input-group-addon">
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        </span>
-                        <input type="text" class="form-control" placeholder="Repita o E-mail" value="<?php echo $this->input->post('emailconf'); ?>" required name="emailconf">
                     </div><!-- /input-group -->
 
                     <button class=" btn  btn-primary btn-block " type="submit">

@@ -1,4 +1,4 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed');?>
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <!DOCTYPE html>
 <html lang="pt_br">
     <head>
@@ -11,13 +11,13 @@
         <meta name="robots" content="noindex">
         <meta name="googlebot" content="noindex">
         <!-- Bloquear a indexação de pesquisa com metatags  -->        
-        <link rel="icon" type="image/gif" href="<?php echo base_url().'assets/imagens/icon-sold.gif';?>">
-        <link rel="shortcut icon" type="image/gif"  href="<?php echo base_url().'assets/imagens/icon-sold.gif'; ?>">
-        <title><?php echo $titulo;?></title>
+        <link rel="icon" type="image/gif" href="<?php echo base_url() . 'assets/imagens/icon-sold.gif'; ?>">
+        <link rel="shortcut icon" type="image/gif"  href="<?php echo base_url() . 'assets/imagens/icon-sold.gif'; ?>">
+        <title><?php echo $titulo; ?></title>
         <!-- CSS -->		
-        <link href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
-        <link href="<?php echo base_url('assets/datatables/css/dataTables.bootstrap.min.css')?>" rel="stylesheet">
-        <link href="<?php echo base_url('assets/bootstrap-datepicker/css/bootstrap-datepicker3.min.css')?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/datatables/css/dataTables.bootstrap.min.css') ?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/bootstrap-datepicker/css/bootstrap-datepicker3.min.css') ?>" rel="stylesheet">
         <link href="<?php echo base_url('assets/font-awesome-4.3.0/css/font-awesome.min.css'); ?>" rel="stylesheet" media="screen">
         <!-- CSS -->
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -26,11 +26,11 @@
             <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-		
-	
 
-        
-                <style>
+
+
+
+        <style>
             .login{
                 width:310px;
                 margin: auto;
@@ -64,12 +64,46 @@
                 -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
                 box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
             }
+            .mini-submenu{
+                display:none;  
+                background-color: rgba(0, 0, 0, 0);  
+                border: 1px solid rgba(0, 0, 0, 0.9);
+                border-radius: 4px;
+                padding: 9px;  
+                /*position: relative;*/
+                width: 42px;
+
+            }
+
+            .mini-submenu:hover{
+                cursor: pointer;
+            }
+
+            .mini-submenu .icon-bar {
+                border-radius: 1px;
+                display: block;
+                height: 2px;
+                width: 22px;
+                margin-top: 3px;
+            }
+
+            .mini-submenu .icon-bar {
+                background-color: #000;
+            }
+
+            #slide-submenu{
+                background: rgba(0, 0, 0, 0.45);
+                display: inline-block;
+                padding: 0 8px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
         </style>
 
         <!-- Custom styles for this template -->
         <link href="<?= base_url('assets/css/signin.css') ?>" rel="stylesheet">
-        
-        
+
+
     </head>
     <body>
     </body>
