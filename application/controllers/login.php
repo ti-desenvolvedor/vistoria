@@ -1,7 +1,11 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Login extends CI_Controller {
-	
+class Login extends CI_Controller {	
+    
+        
+        public $titulo;
+        public $controle;
+        
 	public function __construct() {
 		parent::__construct();
 
@@ -12,15 +16,21 @@ class Login extends CI_Controller {
 		//$this->load->library('session');
 
 		// Load database
+                $this->titulo = 'Extranet - Login';
+                $this->controle = 'Login';     
 		$this->load->model('usuario_model','usuario');
+
 	}
 
 	Public function index(){
-
-			$this->load->view('v_login');
+                $dados['titulo']=$this->titulo;
+                $dados['controle']=$this->controle;        
+                $this->load->view('v_login', $dados);
 	}
 
 	public function logar(){
+                $dados['titulo']=$this->titulo;
+                $dados['controle']=$this->controle;  
 		$this->load->library('form_validation');
 		$this->form_validation->set_rules('usuario', 'Usuario', 'trim|required');
 		$this->form_validation->set_rules('senha', 'Senha', 'trim|required');
@@ -33,7 +43,8 @@ class Login extends CI_Controller {
 			
 			}else{
 				echo validation_errors();
-				$this->load->view('v_login');
+                                
+				$this->load->view('v_login',$dados);
 			}
 		}else{
 
@@ -43,7 +54,6 @@ class Login extends CI_Controller {
 			);
 			
 			$logado = $this->usuario->login($data);
-print_r($data);
                         $dadosusuario = $this->usuario->get_dadosUser($data);
 			if ($logado) {
 				$this->session->set_userdata("logado", 1);

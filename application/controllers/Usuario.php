@@ -2,24 +2,23 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Usuario extends MY_Controller {
+        
+        public $titulo;
+        public $controle;
+        
 	public function __construct() {
 		parent::__construct();
 
-		// Load form validation library
-		// $this->load->library('form_validation');
-
-		// Load session library
-		//$this->load->library('session');
-
-		// Load database
+                $this->titulo = 'Extranet - Adm/Usuários';
+                $this->controle = 'Usuario';   
 		$this->load->model('usuario_model','usuario');
 	}
 
 	public function index()
 	{
-		//$this->load->view('Person_view');
-		
-		$this->load->view('usuario_view');
+                $dados['titulo']=$this->titulo;
+                $dados['controle']=$this->controle;    
+		$this->load->view('usuario_view', $dados);
 	}
 
 	public function ajax_list()

@@ -18,9 +18,9 @@
 
 | Navegadores: <i class="fa fa-safari fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | <i class="fa fa-firefox fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | <i class="fa fa-chrome fa-2 fa-lg fa-inverse" aria-hidden="true"></i> | <i class="fa fa-edge fa-2 fa-lg fa-inverse" aria-hidden="true"></i>  
 <a class="btn pull-right" title="Subir ao Topo" href="#topo" >
- <span class="  fa-stack fa-lg">
+ <span class="  fa-stack fa-lg pull-right">
   <i class="fa fa-square-o fa-stack-2x fa-inverse"></i>
-  <i class="fa fa fa fa-arrow-circle-up fa-stack-1x fa-inverse"></i>
+ <i class="fa fa fa-arrow-up fa-stack-1x fa-inverse"></i>
 </span></a>
 </h6>
        

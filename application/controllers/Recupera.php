@@ -15,8 +15,8 @@ class Login extends CI_Controller {
 
 	Public function index(){
 
-			$this->load->view('v_login');
-	}
+			$this->load->view('recupera_view');
+	}   
 
 	public function logar(){
 		$this->load->library('form_validation');

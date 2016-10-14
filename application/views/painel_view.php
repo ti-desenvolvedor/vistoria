@@ -311,5 +311,6 @@
 </div>
 </div>
 <?php $this->load->view('layout/foot.php');?>
+<?php $this->load->view('layout/scripts.php');?>
 
 

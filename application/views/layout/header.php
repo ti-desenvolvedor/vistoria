@@ -13,7 +13,7 @@
         <!-- Bloquear a indexação de pesquisa com metatags  -->        
         <link rel="icon" type="image/gif" href="<?php echo base_url().'assets/imagens/icon-sold.gif';?>">
         <link rel="shortcut icon" type="image/gif"  href="<?php echo base_url().'assets/imagens/icon-sold.gif'; ?>">
-        <title>Vistória</title>
+        <title><?php echo $titulo;?></title>
         <!-- CSS -->		
         <link href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
         <link href="<?php echo base_url('assets/datatables/css/dataTables.bootstrap.min.css')?>" rel="stylesheet">
@@ -28,16 +28,48 @@
         <![endif]-->
 		
 	
-        <!-- JavaScript -->
-        <script src="<?php echo base_url('assets/jquery/jquery-2.1.4.min.js')?>"></script>
-        <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js')?>"></script>
-        <script src="<?php echo base_url('assets/datatables/js/jquery.dataTables.min.js')?>"></script>
-        <script src="<?php echo base_url('assets/datatables/js/dataTables.bootstrap.min.js')?>"></script>
-        <script src="<?php echo base_url('assets/bootstrap-datepicker/js/bootstrap-datepicker.min.js')?>"></script>
-        <!-- JavaScript -->
-        <!--api grafico google js-->
-        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-        <!--\api grafico google js--> 
+
+        
+                <style>
+            .login{
+                width:310px;
+                margin: auto;
+                padding: 0px
+
+            }
+            .login .input-group{
+                margin: 6px 0 6px 0 ;
+                padding: 0px
+            }
+            .profile-img-card {
+                width: 96px;
+                height: 96px;
+                margin: 0 auto 10px;
+                display: block;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+            }
+            .card {
+                background-color: #fff;
+                /* just in case there no content*/
+                padding: 20px 25px 30px;
+                margin: 0 auto 25px;
+                margin-top: 50px;
+                /* shadows and rounded borders */
+                -moz-border-radius: 2px;
+                -webkit-border-radius: 2px;
+                border-radius: 2px;
+                -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+                -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+            }
+        </style>
+
+        <!-- Custom styles for this template -->
+        <link href="<?= base_url('assets/css/signin.css') ?>" rel="stylesheet">
+        
+        
     </head>
     <body>
     </body>
